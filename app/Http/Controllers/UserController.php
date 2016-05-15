@@ -24,5 +24,5 @@ class UserController extends Controller{
 
         $cities = array('shanghai','beijing','tianjin');
         return view('user.index', ['cities' => $cities]);
-    }
+    }   
 }
